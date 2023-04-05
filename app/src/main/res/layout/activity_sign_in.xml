@@ -92,9 +92,8 @@
         android:layout_marginStart="22dp"
         android:layout_marginTop="292dp"
         android:layout_marginEnd="18dp"
-        android:background="@drawable/btn"
-        android:backgroundTint="#C9D4FB"
-        android:backgroundTintMode="multiply"
+        android:backgroundTint="@color/btn"
+        android:onClick="onClick"
         android:text="@string/btn"
         android:textAppearance="@style/text" />
 
@@ -124,8 +123,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/btny"
-        android:backgroundTint="#EBEBEB"
+        android:backgroundTint="@color/white"
         android:text="@string/btny"
         android:textAppearance="@style/btny"
         android:textColor="#000000" />

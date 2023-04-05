@@ -23,4 +23,7 @@
     <string name="card">Создание карты пациента</string>
     <string name="tv7">Без карты пациента вы не сможете заказать анализы.</string>
     <string name="tv8">В картах пациентов будут храниться результаты анализов вас и ваших близких.</string>
+    <string name="create">Создать</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

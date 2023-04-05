@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/onboard_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/onboard_1">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="111dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:gravity="top"
+        android:onClick="onClick"
+        android:text="@string/tv_skip"
+        android:textAppearance="@style/tv_skip" />
+
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="wrap_content"
+        android:layout_height="322dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="217dp"
+        android:layout_marginTop="871dp"
+        android:src="@drawable/__2022_09_17__19_21_1" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/shape" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="422dp"
+        android:gravity="top"
+        android:text="@string/tv3"
+        android:textAppearance="@style/tv3" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="291dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="3sp"
+        android:text="@string/tv4"
+        android:textAppearance="@style/tv4"
+        android:translationY="-1.65sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv4"
+        android:layout_marginStart="9.25dp"
+        android:layout_marginTop="60.84dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:src="@drawable/ellipse_1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv4"
+        android:layout_marginStart="349dp"
+        android:layout_marginTop="60.84dp"
+        android:src="@drawable/ellipse_2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv4"
+        android:layout_marginStart="9.25dp"
+        android:layout_marginTop="60.84dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:src="@drawable/ellipse_2" />
+</RelativeLayout>

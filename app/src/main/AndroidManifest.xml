@@ -17,19 +17,16 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".CardOfPacient"
+            android:name=".path_2.CardOfPacient"
             android:exported="false" />
         <activity
-            android:name=".Password"
+            android:name=".path_2.Password"
             android:exported="false" />
         <activity
-            android:name=".CodOfEmail"
+            android:name=".path_2.CodOfEmail"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
-            android:exported="false" />
-        <activity
-            android:name=".SimpleFragmentPagerAdapter"
+            android:name=".path_2.SignIn"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
