@@ -15,7 +15,7 @@ import com.example.smartlab.placeholder.PlaceholderContent;
 
 import java.util.List;
 
-public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter implements View.OnClickListener {
+public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
 
     private Fragment Onboard2;
@@ -35,13 +35,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter implements 
         } else {
             return Onboard3;
         }
-
-    }
-
-    @Override
-    public void onClick(View view) {
-        Intent intent = new Intent(SimpleFragmentPagerAdapter.this, SignIn.class);
-        startActivity(intent);
 
     }
 
